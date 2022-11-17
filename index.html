@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <title>Calculadora</title>
+</head>
+<body>
+    <main class="calculator">
+        <section class="calculator-display">
+            <div id="display">0</div>
+        </section>
+
+        <section class="calculator-buttons">
+            <div id="clearButton">C</div>
+            <div class="math-operators" id="dividedButton">÷</div>
+            <div class="math-operators" id="timesButton">x</div>
+            <div class="math-operators" id="minusButton">-</div>
+            
+            
+            <!-- Grade de números da calculadora -->
+            
+            <div id="buttonNumber7" onclick="updateDisplay(7)">7</div>
+            <div id="buttonNumber8" onclick="updateDisplay(8)">8</div>
+            <div id="buttonNumber9" onclick="updateDisplay(9)">9</div>
+            <div class="math-operators" id="plusButton">+</div>
+
+
+            <div id="buttonNumber4" onclick="updateDisplay(4)">4</div>
+            <div id="buttonNumber5" onclick="updateDisplay(5)">5</div>
+            <div id="buttonNumber6" onclick="updateDisplay(6)">6</div>
+            <div id="buttonNumber0" onclick="updateDisplay(0)">0</div>
+
+            <div id="buttonNumber1" onclick="updateDisplay(1)">1</div>
+            <div id="buttonNumber2" onclick="updateDisplay(2)">2</div>
+            <div id="buttonNumber3" onclick="updateDisplay(3)">3</div>
+            
+            <div id="resultButton">=</div>
+            
+            <!-- Grade de números da calculadora -->
+        </section>
+
+        <footer class="developer-area">
+            <p>
+                Developed by <a href="https://github.com/ir2508" target="_blank">Igor Roberto</a>
+            </p>
+        </footer>
+    </main>
+
+    <script type="text/javascript" src="js/calculator.js"></script>
+</body>
+</html>
